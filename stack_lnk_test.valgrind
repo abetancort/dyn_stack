@@ -1,0 +1,15 @@
+==86805== Memcheck, a memory error detector
+==86805== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==86805== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==86805== Command: ./stack_lnk_test
+==86805== Parent PID: 45315
+==86805== 
+==86805== 
+==86805== HEAP SUMMARY:
+==86805==     in use at exit: 0 bytes in 0 blocks
+==86805==   total heap usage: 100,003 allocs, 100,003 frees, 1,602,064 bytes allocated
+==86805== 
+==86805== All heap blocks were freed -- no leaks are possible
+==86805== 
+==86805== For lists of detected and suppressed errors, rerun with: -s
+==86805== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

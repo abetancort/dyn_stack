@@ -1,0 +1,10 @@
+
+stack_lnk_test: stack_lnk_test.o stack_lnk.o
+	gcc -o stack_lnk_test stack_lnk_test.o stack_lnk.o
+
+stack_lnk_test.o: stack_lnk_test.c stack_lnk.h
+	gcc -c stack_lnk_test.c
+
+stack_lnk.o: stack_lnk.c stack_lnk.h
+	gcc -c stack_lnk.c
+
